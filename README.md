@@ -15,7 +15,7 @@
 
 <h2>⚙️ Tech Stack</h2>
 <ul>
-<li>Python for logic</li>
+<li>Python for backend logic</li>
 <li>Selenium and Chromedriver for browser automation.</li>
 </ul>
 
