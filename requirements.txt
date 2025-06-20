@@ -1,0 +1,11 @@
+#selenium
+
+pip install selenium
+
+#chromedriver
+
+Download ChromeDriver: https://sites.google.com/chromium.org/driver/
+
+Download the version that matches your Chrome
+
+Extract and move the chromedriver.exe and place it in the same folder as the main.py
