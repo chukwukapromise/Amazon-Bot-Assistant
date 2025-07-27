@@ -1,11 +1,18 @@
-#selenium
+#install selenium
 
-pip install selenium
+In your terminal, run: pip install selenium
 
-#chromedriver
+#download chromedriver
 
 Download ChromeDriver: https://sites.google.com/chromium.org/driver/
 
 Download the version that matches your Chrome
 
 Extract and move the chromedriver.exe and place it in the same folder as the main.py
+
+In your code file, import the required packages:
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
