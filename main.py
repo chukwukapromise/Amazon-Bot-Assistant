@@ -1,8 +1,3 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 driver = webdriver.Chrome()
 driver.get(
     "https://www.amazon.com/ax/claim?arb=6ef7ea52-743d-4bf6-b2bb-8349935be4ea&openid.assoc_handle=usflex&openid.mode=checkid_setup&policy_handle=Retail-Checkout&openid.return_to=https%3A%2F%2Fwww.amazon.com%3F&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
